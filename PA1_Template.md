@@ -47,7 +47,7 @@ total_day = aggregate(x = data_omit[c("steps")], FUN = sum, by = list(Group.date
 hist(total_day$steps, breaks=10, xlab = "Steps", main = "Total Steps per Day", xlim = c(0,25000))
 ```
 
-!(PA1_Template_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
+![](PA1_Template_files/figure-html/unnamed-chunk-3-1.png)<!-- -->
 ###Mean/Median of steps taken per day
 
 ```r
